@@ -199,7 +199,7 @@ const Hero = () => (
 
       <div className="relative animate-in zoom-in duration-1000">
         <figure className="relative z-10 rounded-3xl overflow-hidden shadow-[0_40px_100px_-20px_rgba(147,51,234,0.3)] transform hover:scale-[1.02] transition-transform cursor-pointer">
-          <img src="https://placehold.co/600x600/EEE/31343C?text=Hero+Image+Placeholder" alt={`${BRAND_NAME} 2026 Hero Cover`} className="w-full h-auto" />
+        <img src="/DP-Palette%204%20Portrait%20-%202250%20X%202250_1.jpg" alt={`${BRAND_NAME} 2026 Hero Cover`} className="w-full h-auto" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
         </figure>
       </div>
@@ -213,7 +213,7 @@ const DailyWeeklyFeatures = () => (
       <div className="grid md:grid-cols-2 gap-16 items-center">
         <div className="order-2 md:order-1">
           <figure className="rounded-3xl overflow-hidden shadow-xl">
-             <img src="https://placehold.co/400x800/EEE/31343C?text=Vertical+iPad+View" alt={`${BRAND_NAME} Daily Layout`} className="w-full" />
+          <img src="/DP-Palette%204%20Portrait%20-%202250%20X%202250_7.jpg" alt={`${BRAND_NAME} Daily Layout`} className="w-full" />
           </figure>
         </div>
         <div className="space-y-6 order-1 md:order-2">
@@ -243,7 +243,7 @@ const DailyWeeklyFeatures = () => (
         </div>
         <div>
           <figure className="rounded-3xl overflow-hidden shadow-xl">
-             <img src="https://placehold.co/600x400/EEE/31343C?text=Weekly+Layout" alt={`${BRAND_NAME} Weekly Layout`} className="w-full" />
+           <img src="/DP-Palette%204%20Portrait%20-%202250%20X%202250_6.jpg" alt={`${BRAND_NAME} Weekly Layout`} className="w-full" />
           </figure>
         </div>
       </div>
@@ -274,7 +274,7 @@ const HowItWorks = () => (
       </div>
       <div>
         <figure className="rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
-           <img src="https://placehold.co/600x400/EEE/31343C?text=Integration+View" alt={`${BRAND_NAME} Calendar Integration`} className="w-full" />
+         <img src="/DP-Palette%204%20Portrait%20-%202250%20X%202250_3.jpg" alt={`${BRAND_NAME} Calendar Integration`} className="w-full" />
         </figure>
       </div>
     </div>
@@ -290,7 +290,7 @@ const FeatureGrid = () => (
           <p className="text-slate-500 text-lg">From productivity sprints to mindfulness trackers, {BRAND_NAME} is your complete digital headquarters.</p>
         </div>
         <figure className="rounded-2xl overflow-hidden shadow-lg">
-           <img src="https://placehold.co/600x400/EEE/31343C?text=Feature+Overview" alt={`${BRAND_NAME} Feature Overview`} className="w-full" />
+         <img src="/DP-Palette%204%20Portrait%20-%202250%20X%202250_8.jpg" alt={`${BRAND_NAME} Feature Overview`} className="w-full" />
         </figure>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -328,7 +328,7 @@ const WhatIsIncluded = () => (
           <h2 className="text-4xl font-serif">The Navigation <span className="italic">Hub</span></h2>
           <p className="text-lg text-slate-600">Our intelligent index system allows you to access any page in the planner within two taps. It's the most frictionless way to manage a 400+ page PDF.</p>
           <figure className="rounded-2xl overflow-hidden shadow-lg">
-             <img src="https://placehold.co/600x400/EEE/31343C?text=Index+Navigation" alt={`${BRAND_NAME} Index Navigation`} className="w-full" />
+           <img src="/DP-Palette%204%20Portrait%20-%202250%20X%202250_2.jpg" alt={`${BRAND_NAME} Index Navigation`} className="w-full" />
           </figure>
         </div>
         <div className="space-y-8">
@@ -347,7 +347,7 @@ const WhatIsIncluded = () => (
             ))}
           </ul>
           <figure className="rounded-2xl overflow-hidden shadow-lg border-4 border-pastel-pink/30">
-             <img src="https://placehold.co/600x400/EEE/31343C?text=Stickers+and+Covers" alt={`${BRAND_NAME} Digital Stickers and Covers`} className="w-full" />
+          <img src="/DP-Palette%204%20Portrait%20-%202250%20X%202250_11.jpg" alt={`${BRAND_NAME} Digital Stickers and Covers`} className="w-full" />
           </figure>
         </div>
       </div>
@@ -355,7 +355,7 @@ const WhatIsIncluded = () => (
       <div className="grid md:grid-cols-2 gap-16 items-center pt-12">
         <div className="order-2 md:order-1">
           <figure className="rounded-3xl overflow-hidden shadow-2xl">
-             <img src="https://placehold.co/400x800/EEE/31343C?text=Finance+Tracker" alt={`${BRAND_NAME} Finance Tracker`} className="w-full" />
+           <img src="/DP-Palette%204%20Portrait%20-%202250%20X%202250_9.jpg" alt={`${BRAND_NAME} Finance Tracker`} className="w-full" />
           </figure>
         </div>
         <div className="space-y-6 order-1 md:order-2">
