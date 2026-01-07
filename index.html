@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSPIREX 2026 | All-in-One Digital Planner for GoodNotes & Notability</title>
+    <meta name="description" content="Master your 2026 with the fully hyperlinked INSPIREX Digital Planner. Featuring Google & Apple Calendar integration, wellness trackers, and premium stickers.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="INSPIREX 2026 Digital Planner">
+    <meta property="og:description" content="The only digital planner that syncs with your Google & Apple calendars.">
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="YOUR_PAYMENT_LINK_HERE">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pastel: {
+                            pink: '#FDF2F8',
+                            lavender: '#F5F3FF',
+                            purple: '#E9D5FF',
+                            accent: '#9333EA',
+                            text: '#4B5563'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif']
+                    },
+                    animation: {
+                        'scroll': 'scroll 40s linear infinite',
+                    },
+                    keyframes: {
+                        scroll: {
+                            '0%': { transform: 'translateX(0)' },
+                            '100%': { transform: 'translateX(-50%)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .mask-fade {
+            mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+            -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+        }
+    </style>
+    
+    <!-- Schema.org Product -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "INSPIREX All-in-One Digital Planner 2026",
+      "image": "https://placehold.co/600x600/EEE/31343C?text=Hero+Image+Placeholder",
+      "description": "Premium 2026 digital planner with calendar integration for iPad and tablets.",
+      "brand": {
+        "@type": "Brand",
+        "name": "INSPIREX"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "24.99",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "128"
+      }
+    }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom": "https://esm.sh/react-dom@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white text-pastel-text font-sans selection:bg-purple-200">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
