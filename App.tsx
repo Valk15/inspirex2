@@ -554,15 +554,16 @@ const Footer = () => (
         <ul className="space-y-3 text-sm">
           <li><a href="#" className="hover:text-pastel-accent transition-colors">User Guide</a></li>
           <li><a href="#" className="hover:text-pastel-accent transition-colors">Installation Help</a></li>
-          <li><a href="#" className="hover:text-pastel-accent transition-colors">Terms of Service</a></li>
-          <li><a href="#" className="hover:text-pastel-accent transition-colors">Privacy Policy</a></li>
+          <li><a href="/terms.html" target="_blank" className="hover:text-pastel-accent transition-colors">Terms of Service</a></li>
+          <li><a href="/privacy.html" target="_blank" className="hover:text-pastel-accent transition-colors">Privacy Policy</a></li>
+          <li><a href="/refunds.html" target="_blank" className="hover:text-pastel-accent transition-colors">Refund Policy</a></li>
         </ul>
       </div>
 
       <div className="space-y-6">
         <h4 className="text-white font-bold">Contact</h4>
         <p className="text-sm">Have a question? We're here to help.</p>
-        <a href="mailto:support@inspirex.com" className="text-pastel-accent font-bold block">support@inspirex.com</a>
+        <a href="mailto:support@inspirex.world" className="text-pastel-accent font-bold block">support@inspirex.world</a>
       </div>
     </div>
     <div className="max-w-7xl mx-auto px-4 pt-10 text-center text-xs tracking-widest uppercase text-slate-600">
