@@ -186,6 +186,10 @@ const Hero = () => (
                 // @ts-ignore
                 window.fbq('track', 'InitiateCheckout');
               }
+              if (typeof window !== 'undefined' && (window as any).gtag) {
+                // @ts-ignore
+                window.gtag('event', 'begin_checkout');
+              }
             }}
             data-cta="primary-hero" 
             className="px-10 py-5 bg-[#8A2BE2] text-white rounded-2xl font-bold text-xl shadow-xl transition-all duration-300 ease-in-out hover:bg-[#D946EF] hover:shadow-[0_15px_35px_rgba(217,70,239,0.5)] hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 group"
@@ -521,6 +525,10 @@ const Pricing = () => (
               if (typeof window !== 'undefined' && (window as any).fbq) {
                 // @ts-ignore
                 window.fbq('track', 'InitiateCheckout');
+              }
+              if (typeof window !== 'undefined' && (window as any).gtag) {
+                // @ts-ignore
+                window.gtag('event', 'begin_checkout');
               }
             }}
             data-cta="primary-price"
