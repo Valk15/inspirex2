@@ -183,7 +183,8 @@ const Hero = () => (
             onClick={(e) => {
               e.preventDefault();
               if (typeof window !== 'undefined' && (window as any).fbq) {
-                (window as any).fbq('track', 'InitiateCheckout');
+                // @ts-ignore
+                window.fbq('track', 'InitiateCheckout');
               }
             }}
             data-cta="primary-hero" 
@@ -518,7 +519,8 @@ const Pricing = () => (
             onClick={(e) => {
               e.preventDefault();
               if (typeof window !== 'undefined' && (window as any).fbq) {
-                (window as any).fbq('track', 'InitiateCheckout');
+                // @ts-ignore
+                window.fbq('track', 'InitiateCheckout');
               }
             }}
             data-cta="primary-price"
