@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { 
   Calendar, 
   CheckCircle2, 
@@ -654,6 +655,7 @@ export default function App() {
       <Footer />
       <FloatingCTA />
       <BackToTop />
+      <Analytics />
     </div>
   );
 }
