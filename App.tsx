@@ -177,15 +177,14 @@ const Hero = () => (
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <a 
-            href={CHECKOUT_URL} 
-            target="_blank"
-            rel="noopener noreferrer"
+          <button 
+            type="button"
+            data-paylixecommerce-product="695fd4a26a0e2"
             data-cta="primary-hero" 
             className="px-10 py-5 bg-[#8A2BE2] text-white rounded-2xl font-bold text-xl shadow-xl transition-all duration-300 ease-in-out hover:bg-[#D946EF] hover:shadow-[0_15px_35px_rgba(217,70,239,0.5)] hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3 group"
           >
             {CTA_TEXT} <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-          </a>
+          </button>
         </div>
 
         <ul className="space-y-3">
@@ -507,15 +506,14 @@ const Pricing = () => (
         </div>
 
         <div className="space-y-4 pt-8">
-          <a 
-            href={CHECKOUT_URL} 
-            target="_blank"
-            rel="noopener noreferrer"
+          <button 
+            type="button"
+            data-paylixecommerce-product="695fd4a26a0e2"
             data-cta="primary-price"
             className="block w-full py-6 bg-[#8A2BE2] text-white rounded-[2rem] text-2xl font-bold transition-all duration-300 ease-in-out hover:bg-[#D946EF] hover:shadow-[0_15px_35px_rgba(217,70,239,0.5)] hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3"
           >
             <Download className="w-8 h-8" /> {CTA_TEXT}
-          </a>
+          </button>
           <p className="text-[#6B7280] text-[0.9rem] flex items-center justify-center gap-2 mt-[10px] font-medium">
              <CheckCircle2 className="w-4 h-4 text-pastel-accent" /> Join 5,000+ Happy Planners • Instant Email Delivery • Works with GoodNotes & Notability
           </p>
